@@ -45,5 +45,6 @@ public class CarsSteps {
     @And("^I press search button$")
     public void iPressSearchButton() {
         cars.pressSearchButton();
+        page.stopDriver();
     }
 }

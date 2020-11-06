@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Super awesome feature" tests="2" skipped="1" failures="0" errors="0" timestamp="2020-11-05T20:03:07" hostname="LAPTOP-M0746137" time="33.246">
+<testsuite name="Super awesome feature" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-05T20:44:45" hostname="LAPTOP-M0746137" time="17.427">
   <properties/>
-  <testcase name="Open browser at least" classname="Super awesome feature" time="8.268">
-    <skipped/>
-  </testcase>
-  <testcase name="Open browser at least" classname="Super awesome feature" time="24.975"/>
+  <testcase name="Open cars page and configure it" classname="Super awesome feature" time="17.427"/>
   <system-out><![CDATA[I am here
-?[32m.?[0m?[32m.?[0m?[33mU?[0mI am here
 ?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0m]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 47660
+  <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 45485
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1604606589.793][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
-Nov 05, 2020 10:03:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 15575
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1604606597.393][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
-Nov 05, 2020 10:03:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1604609087.164][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 05, 2020 10:44:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

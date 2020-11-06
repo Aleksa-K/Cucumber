@@ -1,6 +1,5 @@
 package lesson12.steps;
 
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import lesson10.pages.DogsPage;
@@ -11,12 +10,12 @@ public class DogsSteps {
     DogsPage dogs = new DogsPage();
 
 
-    @Then("Open dogs category")
+    @When("Open dogs category")
     public void openDogsCategory() {
         page.chooseDogsType();
     }
 
-    @And("^I set dogs min and max age$")
+    @Then("^I set dogs min and max age$")
     public void iSetDogsMinAndMaxAge() {
         dogs.setAge("3", "25");
     }

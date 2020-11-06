@@ -2,14 +2,15 @@
 
 Feature: Super awesome feature
 
-  Scenario: Open browser at least
+  Scenario: Open dogs page and configure it
     Given Open Chrome browser
-    When I open https://www.ss.com
-    Then Open dogs category
-    And I set dogs min and max age
+    And I open https://www.ss.com
+    When Open dogs category
+    Then I set dogs min and max age
+    And I press search button
 
-
-  Scenario: Open browser at least
+  @Wip
+  Scenario: Open cars page and configure it
     Given Open Chrome browser
     And I open https://www.ss.com
     When Open cars category
