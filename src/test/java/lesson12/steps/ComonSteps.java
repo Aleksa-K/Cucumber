@@ -1,8 +1,9 @@
 package lesson12.steps;
 
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
-import cucumber.api.java.en.When;
 import lesson10.pages.HomePage;
+
 
 
 public class ComonSteps {
@@ -15,7 +16,7 @@ public class ComonSteps {
 
     }
 
-    @When("^I open (.*)$")
+    @And("^I open (.*)$")
     public void iOpenHttpsWwwSsCom(String url) {
         page.startPage(url);
     }

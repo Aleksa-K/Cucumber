@@ -2,6 +2,7 @@
 
 Feature: Super awesome feature
 
+
   Scenario: Open dogs page and configure it
     Given Open Chrome browser
     And I open https://www.ss.com
