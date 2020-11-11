@@ -18,7 +18,7 @@ public class TattooSteps {
         driver.manage().window().maximize();
     }
 
-    @Then("^Go to (.*)$")
+    @And("^Go to (.*)$")
     public void goToHttpsWwwAliexpressCom(String url) {
         driver.navigate().to(url);
 
